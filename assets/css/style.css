@@ -1,0 +1,104 @@
+@font-face{
+	font-family: "myfont";
+	src: url("../fonts/myfont.ttf");
+}
+.name{
+	font-family: "myfont";
+	color: olivedrab;
+	background-color: lightsalmon;
+}
+.hex{
+	color: #4885ed; /*google blue*/
+}
+.opacity{
+	background-color: red;
+	opacity: 0.4;
+
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.underline{
+	text-decoration: underline;
+}
+.linethrough{
+	text-decoration: line-through;
+}
+.letterspacing{
+	letter-spacing: 0.25em;
+}
+.alignleft{
+	text-align: left;
+}
+.alignright{
+	text-align: right;
+}
+.alignjustify{
+	text-align: justify;
+}
+.textshadow{
+	text-shadow: 10px 10px 20px #000000;
+}
+.link a{
+	color: green;
+	text-decoration: none;
+}
+.visited a: visited{
+	color: pink;
+}
+.hover:hover{
+	background-color: papayawhip;
+	/*color: indianred;*/
+	border: 5px solid indianred;
+}
+.active a:active{
+	background-color: aqua;
+}
+.focus-me:focus{
+	background-color: black;
+}
+.opensourcefont{
+	font-family: 'Noto Sans', sans-serif;
+}
+.serif{
+	font-family: "serif";
+}
+.sansserif{
+	font-family: Verdana, Arial, sans-serif;
+}
+.monospace{
+	font-family: 'Courier';
+}
+.cursive{
+	font-family: 'Monotype Corsiva';
+}
+.fantasy{
+	font-family: 'Haettenschweiler';
+}
+.pixels{
+	font-size: 25px;
+}
+.percent{
+	font-size: 75%; /*this is equivalent to 16px(default) x 0.75 = 12px*/
+}
+.ems{
+	font-size: 2em; /*1em is equal to 16px*/
+}
+/*
+COMPARISON
+Pixels vs Percent vs em
+h1 -> 32 -> 200% ->2em
+h2 -> 24px -> 150% -> 1.5em
+h3 -> 18px -> 133% -> 1.125em*/
